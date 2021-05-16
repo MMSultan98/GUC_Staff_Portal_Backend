@@ -1,6 +1,27 @@
 # GUC_Staff_Portal
 Web portal for GUC staff members
 
+DEPLOYED WEBSITE: https://guc-staff-portal.netlify.app/
+
+hr username: hr1@guc.edu.eg
+hr password: 123456
+
+Any other user can be easily created by the hr
+
+To run backend 
+run
+npm install
+npm start
+
+.env file should be added and includes the following:
+
+MONGODB_URI = mongo connection string
+AUTH_ACCESS_TOKEN_SECRET = any secret
+AUTH_REFRESH_TOKEN_SECRET = any secret
+AUTH_ACCESS_TOKEN_AGE = 300
+AUTH_REFRESH_TOKEN_AGE = 28800
+MAIL_FORMAT = ^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$
+
 
 - File to launch the server: index.js
 
